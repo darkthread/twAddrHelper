@@ -1,0 +1,60 @@
+﻿<html >
+<head>
+    <title>AddressTextBox</title>
+    <style type="text/css">
+    html, body {
+	    height: 100%;
+	    overflow: auto;
+    }
+    </style>
+    <link href="http://blog.darkthread.net/themes/blogs/gold%20coast/style/style.css" type="text/css" rel="Stylesheet" />
+    <script src="http://ajax.cdnjs.com/ajax/libs/json2/20110223/json2.js"></script>
+    <script src="Scripts/json2ext.js"></script>
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/jquery.autocomplete.js"></script>
+    <link href="Styles/jquery.autocomplete.css" rel="stylesheet" />
+    <script src="Scripts/jquery.twAddrHelper.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            setAddressInput($("#dvAddress1"));
+            setAddressInput($("#dvAddress2"));
+        });
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server" style="height:100%">
+    <div id="twAddrHelper" style="display: inline; text-align:left;"></div>
+    <div style="text-align:left; color: Yellow;">
+        <h2>台灣地址輸入輔助元件 Ver 1.0 Beta (JavaScript版)</h2>
+    </div>
+	<table cellspacing="5" cellpadding="5" style="float: left;">
+	<tr><td>地址1</td>
+	<td>
+    <div id="dvAddress1">
+    <input type="text" class="cCountry" style="width: 25px;" value="TW" />
+    <input type="text" class="cZip" style="width: 35px;" />
+    <input type="text" class="cAddress" style="width: 400px;" />
+    </div>
+	</td></tr>
+	<tr><td>地址2</td>
+	<td>
+    <div id="dvAddress2">
+    <input type="text" class="cCountry" style="width: 25px;" value="TW" />
+    <input type="text" class="cZip" style="width: 35px;" />
+    <input type="text" class="cAddress" style="width: 400px;" />
+    </div>
+	</td></tr>
+    </table>
+    <div style="padding-top: 20px; color: White; text-align: left; clear: both;">
+    【操作說明】
+        <ol>
+            <li>第一欄位為國別，第二欄為郵遞區號，第三欄位地址。</li>
+            <li>當第一欄位&quot;TW&quot;時，郵遞區號及地址欄會啟動自動完成功能。</li>
+            <li>操作方式1: 輸入郵遞區號，自動帶出區域，例如: 110-&gt;台北市信義區</li>
+            <li>操作方式2: 地址欄輸入&quot;台&quot;會提示以台開頭的縣市，輸入完整台北市後，開始提示台北市之行政區，輸入完整行政區後，開始提出路名</li>
+            <li>操作方式3: 模糊比對--星星大法，輸入&quot;忠*路&quot;，用Regex把全台灣的忠X路都挖出來吧!</li>
+        </ol>
+    </div>
+	</form>
+</body>
+</html>
