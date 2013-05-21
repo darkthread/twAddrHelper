@@ -1,9 +1,9 @@
-¥xÆW¦a§}¿é¤J»²§U¤¸¥ó
+ï»¿å°ç£åœ°å€è¼¸å…¥è¼”åŠ©å…ƒä»¶
 ======================
 
-¥H¤¤µØ¶l¬F¤§[3+2½X¶l»¼°Ï¸¹¸ê®Æ](http://www.post.gov.tw/post/internet/down/index.html)¬°°òÂ¦¡Aµ²¦X[jQuery¦Û°Ê§¹¦¨](http://blog.darkthread.net/post-2009-07-10-jquery-autocomplete-sample.aspx)¡A
-´£¨Ñ¿é¤J¿¤¥«¶mÂí¦a¦W¦Û°Ê±a¥X¶l»¼°Ï¸¹¤§ºô­¶¿é¤J»²§U¡C
+ä»¥ä¸­è¯éƒµæ”¿ä¹‹[3+2ç¢¼éƒµéå€è™Ÿè³‡æ–™](http://www.post.gov.tw/post/internet/down/index.html)ç‚ºåŸºç¤ï¼Œçµåˆ[jQueryè‡ªå‹•å®Œæˆ](http://blog.darkthread.net/post-2009-07-10-jquery-autocomplete-sample.aspx)ï¼Œ
+æä¾›è¼¸å…¥ç¸£å¸‚é„‰é®åœ°åè‡ªå‹•å¸¶å‡ºéƒµéå€è™Ÿä¹‹ç¶²é è¼¸å…¥è¼”åŠ©ã€‚
 
-¸Ô²Ó»¡©ú½Ğ°Ñ¦Ò[³¡¸¨®æ¤å³¹](http://blog.darkthread.net/post-2013-04-06-pure-jquery-taiwan-address-helper.aspx)¡C
+è©³ç´°èªªæ˜è«‹åƒè€ƒ[éƒ¨è½æ ¼æ–‡ç« ](http://blog.darkthread.net/post-2013-04-06-pure-jquery-taiwan-address-helper.aspx)ã€‚
 
 ![Demo](https://raw.github.com/darkthread/twAddrHelper/master/doc/demo.gif)
