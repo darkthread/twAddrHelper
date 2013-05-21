@@ -6,4 +6,4 @@
 
 詳細說明請參考[部落格文章](http://blog.darkthread.net/post-2013-04-06-pure-jquery-taiwan-address-helper.aspx)。
 
-![Demo](https://raw.github.com/darkthread/twAddrHelper/master/doc/demo.gif)
+![Demo](https://raw.github.com/darkthread/twAddrHelper/master/demo.gif)
