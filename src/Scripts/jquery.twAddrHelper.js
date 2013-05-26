@@ -2,7 +2,8 @@
 台灣地址輸入輔助元件 by Jeffrey Lee
 http://blog.darkthread.net
 
-Ver 1.0 2013-05-21 初版
+Ver 1.0.0 2013-05-21 初版
+Ver 1.0.1 2013-05-26 修正郵遞區號自動完成失效問題
 */
 
 (function ($) {
@@ -103,7 +104,7 @@ Ver 1.0 2013-05-21 初版
     }
     InitData();
 	function noData() { 
-		if (!$.twAddrData || !$.twAddrData.zipData) {
+	    if (!$.twAddrData || !$.twAddrData.zip2Area) {
 			alert("郵遞區號資料未載入!");
 			return true;
 		}
@@ -114,7 +115,7 @@ Ver 1.0 2013-05-21 初版
     $.QueryZip = function (t) {
         var r = [];
 		if (noData()) return r;
-        for (var zip in $.twAddrData.zipData) {
+		for (var zip in $.twAddrData.zip2Area) {
             if (zip.indexOf(t) == 0) {
                 r.push(zip);
                 if (r.length >= 10)
